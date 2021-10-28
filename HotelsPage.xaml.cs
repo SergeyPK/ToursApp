@@ -23,9 +23,10 @@ namespace ToursApp
         public HotelsPage()
         {
             InitializeComponent();
+            DGgidHotels.ItemsSource = ToursBaseEntities.GetContext().Hotels.ToList();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Button_Click(object sender, RoutedEventArgs e)
         {
             Manager.MainFrame.Navigate(new AddEditPade());
         }
