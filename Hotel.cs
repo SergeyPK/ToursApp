@@ -20,7 +20,6 @@ namespace ToursApp
             this.HotelComments = new HashSet<HotelComment>();
             this.HotelImages = new HashSet<HotelImage>();
             this.Tours = new HashSet<Tour>();
-            this.Tours1 = new HashSet<Tour>();
         }
     
         public int Id { get; set; }
