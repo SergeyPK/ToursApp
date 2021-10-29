@@ -35,5 +35,18 @@ namespace ToursApp
         {
 
         }
+
+        public void BtnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AddEditPade());    
+        }
+
+        public void BtnDelete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+
     }
 }
